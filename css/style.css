@@ -4,8 +4,14 @@
 }
 
 .activity-image {
+  max-width: 350px;
+  max-height: 290px;
   display: flex;
   margin: 0 auto;
+}
+
+.uk-card-title {
+  text-align: center;
 }
 
 @media (max-width: 960px) {
