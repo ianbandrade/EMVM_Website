@@ -10,7 +10,8 @@
   margin: 0 auto;
 }
 
-.uk-card-title {
+.uk-card-title,
+.card-description {
   text-align: center;
 }
 
