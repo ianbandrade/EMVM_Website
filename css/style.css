@@ -1,0 +1,17 @@
+.uk-icon.logo {
+  width: 9vh;
+  margin-top: 15px;
+}
+
+.activity-image {
+  display: flex;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .logo {
+    width: 8vh;
+    margin: 0 auto;
+    padding: 5px;
+  }
+}
