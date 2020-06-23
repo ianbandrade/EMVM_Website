@@ -5,7 +5,8 @@
 
 .web-image-title {
   color: black !important;
-  font-weight: bolder;
+  font-weight: bold;
+  text-align: center;
 }
 
 .uk-cover {
@@ -15,7 +16,7 @@
 
 #homepage-title {
   text-align: center;
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 .activity-image {
