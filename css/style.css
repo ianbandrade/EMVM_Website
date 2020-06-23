@@ -3,6 +3,11 @@
   margin-top: 15px;
 }
 
+.web-image-title {
+  color: black !important;
+  font-weight: bolder;
+}
+
 .uk-cover {
   min-width: 500px;
   min-height: 500px;
@@ -10,6 +15,7 @@
 
 #homepage-title {
   text-align: center;
+  font-weight: bolder;
 }
 
 .activity-image {
