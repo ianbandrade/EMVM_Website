@@ -9,8 +9,8 @@
 }
 
 .activity-image {
-  max-width: 350px;
-  max-height: 290px;
+  max-width: 290px;
+  max-height: 222px;
   display: flex;
   margin: 0 auto;
 }
