@@ -1,89 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="img/vinicius.jpeg">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
-    <title>EMVM</title>
-  </head>
-  <body>
-    <header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="img/vinicius.jpeg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <title>EMVM</title>
+</head>
+
+<body>
+  <header>
     <!--Hamburger menu-->
     <nav id="menu" class="uk-navbar-container uk-hidden@m" uk-navbar>
       <div id="menu-bar" class="uk-navbar-left uk-padding-remove">
-          <button class="uk-button uk-button-link" type="button" uk-toggle="target: #offcanvas-push"> <a
-                  class="uk-navbar-toggle" uk-navbar-toggle-icon></a></button>
+        <button class="uk-button uk-button-link" type="button" uk-toggle="target: #offcanvas-push"> <a
+            class="uk-navbar-toggle" uk-navbar-toggle-icon></a></button>
 
-          <div id="offcanvas-push" uk-offcanvas="mode: push; uk-offcanvas=" olverlay: true">
-              <div class="uk-offcanvas-bar">
+        <div id="offcanvas-push" uk-offcanvas="mode: push; uk-offcanvas=" olverlay: true">
+          <div class="uk-offcanvas-bar">
 
-                  <button class="uk-offcanvas-close uk-close-large" type="button" uk-close></button>
+            <button class="uk-offcanvas-close uk-close-large" type="button" uk-close></button>
 
-                  <div class="uk-width-1-2@s">
-                      <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>  
-                        <br>                      
-                          <li>
-                            <h3>REDES SOCIAIS</h3>
-                            <a href="https://www.instagram.com/emvm.pbh" target="_blank" class="uk-icon" uk-icon="icon: instagram; ratio: 1.5"></a>
-                          </li> 
-                      </ul>
-                  </div>
+            <div class="uk-width-1-2@s">
+              <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
+                <br>
+                <li>
+                  <h3>REDES SOCIAIS</h3>
+                  <a href="https://www.instagram.com/emvm.pbh" target="_blank" class="uk-icon"
+                    uk-icon="icon: instagram; ratio: 1.5"></a>
+                </li>
+              </ul>
+            </div>
 
-              </div>
           </div>
+        </div>
       </div>
 
-       <div class="uk-navbar-center uk-hidden@m"> <a class="uk-navbar-item uk-logo" href=""><img class="logo"
-        src="img/vinicius.png" alt=""></a>
+      <div class="uk-navbar-center uk-hidden@m"> <a class="uk-navbar-item uk-logo" href=""><img class="logo"
+            src="img/vinicius.png" alt=""></a>
+      </div>
+    </nav>
+
+    <!--Display menu >= @m-->
+    <nav id="menu-full" class="uk-navbar-container uk-visible@m" uk-navbar>
+      <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+          <li><a href="https://www.instagram.com/emvm.pbh" target="_blank"
+              class="uk-icon-link uk-overlay uk-margin-small-left" uk-icon="icon: instagram; ratio: 1.5"></a></li>
+        </ul>
 
       </div>
-  </nav>
+      <div class="uk-navbar-center">
+        <h3 class="uk-text-bold">ESCOLA MUNICIPAL VINÍCIUS DE MORAES</h3>
+      </div>
 
-   <!--Display menu >= @m-->
-   <nav id="menu-full" class="uk-navbar-container uk-visible@m" uk-navbar>
-    <div class="uk-navbar-left">
-      <ul class="uk-navbar-nav">
-        <li><a href="https://www.instagram.com/emvm.pbh" target="_blank"
-          class="uk-icon-link uk-overlay uk-margin-small-left"
-          uk-icon="icon: instagram; ratio: 1.5"></a></li>
-    </ul>
+      <div class="uk-navbar-right uk-visible@m">
+        <p class="uk-navbar-item uk-logo"><img class="uk-icon logo" src="/img/vinicius.png"
+            alt="Logotipo Vinicius de Moraes"> </p>
+      </div>
+    </nav>
+  </header>
 
-    </div>
-    <div class="uk-navbar-center"><h3 class="uk-text-bold">ESCOLA MUNICIPAL VINÍCIUS DE MORAES</h3></div>
+  <main>
 
-    <div class="uk-navbar-right uk-visible@m"> <p class="uk-navbar-item uk-logo"><img class="uk-icon logo" src="/img/vinicius.png" alt="Logotipo Vinicius de Moraes"> </p>
-  </div>
-</nav>
-    </header>
+    <div class="uk-container">
+      <br>
 
-    <main>
-      
-      <div class="uk-container">
-        <br>
-        
 
-        <div>
-          <div class="uk-card uk-card-default uk-card-hover uk-card-body">
-            <h3 style="text-align: center;" class="uk-hidden@m uk-text-bold" >ESCOLA MUNICIPAL <br> VINÍCIUS DE MORAES</h3>
-              <p class="uk-text-center uk-text-lead">
-                Escola Municipal de Belo Horizonte, oferece 1°, 2° e 3° Ciclos do E. Fundamental. <br> Programas: Escola Integrada, Escola Aberta, Escola nas Férias e Projetos de Inclusão.
-              </p>
-          </div>
+      <div>
+        <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+          <h3 style="text-align: center;" class="uk-hidden@m uk-text-bold">ESCOLA MUNICIPAL <br> VINÍCIUS DE MORAES</h3>
+          <p class="uk-text-center uk-text-lead">
+            Escola Municipal de Belo Horizonte, oferece 1°, 2° e 3° Ciclos do E. Fundamental. <br> Programas: Escola
+            Integrada, Escola Aberta, Escola nas Férias e Projetos de Inclusão.
+          </p>
+        </div>
       </div>
 
       <br>
-        <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-image: url('img/cover.jpg');">
+      <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top"
+        style="background-image: url('img/cover.jpg');">
       </div>
 
-      <h1 class="uk-text-bold" style="text-align: center;" uk-parallax="opacity: 0,1; y: -5,0; scale: 0.8,1; viewport: 0.5;">Atividades para os estudantes</h1>
-      <h4 class="uk-text-bold" style="text-align: center;" uk-parallax="opacity: 0,1; y: 1,1; scale: 0.5,0.9; viewport: 0.5;">Não precisa imprimir. <br> Pode copiar no caderno.</h4>
+      <h1 class="uk-text-bold" style="text-align: center;"
+        uk-parallax="opacity: 0,1; y: -5,0; scale: 0.8,1; viewport: 0.5;">Atividades para os estudantes</h1>
+      <h4 class="uk-text-bold" style="text-align: center;"
+        uk-parallax="opacity: 0,1; y: 1,1; scale: 0.5,0.9; viewport: 0.5;">Não precisa imprimir. <br> Pode copiar no
+        caderno.</h4>
 
-        <br>
-    
+      <br>
+
     </div>
 
     <br>
@@ -91,158 +101,171 @@
     <div class="uk-container">
       <div class="uk-child-width-1-3@m" class="uk-child-width-1-2@s" uk-grid>
         <div>
-            <div class="uk-card uk-card-default">
-                <div class="uk-card-media-top">
-                  <img class="activity-image" data-src="img/1ano.jpeg" uk-img>
-                </div>
-                <div class="uk-card-body">
-                    <h3 class="uk-card-title">1º Ano</h3>
-                    <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-                </div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/1ano.jpeg" uk-img>
             </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">1º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
         </div>
         <div>
           <div class="uk-card uk-card-default">
-              <div class="uk-card-media-top">
-                <img class="activity-image" data-src="img/2ano.jpeg" uk-img>
-              </div>
-              <div class="uk-card-body">
-                  <h3 class="uk-card-title">2º Ano</h3>
-                  <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-              </div>
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/2ano.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">2º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
           </div>
-      </div>
-      <div>
-        <div class="uk-card uk-card-default">
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
               <img class="activity-image" data-src="img/3ano.jpeg" uk-img>
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title">3º Ano</h3>
-                <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+              <h3 class="uk-card-title">3º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
             </div>
-        </div>
-    </div>
-    <div>
-      <div class="uk-card uk-card-default">
-          <div class="uk-card-media-top">
-            <img class="activity-image" data-src="img/4ano.jpeg" uk-img>
           </div>
-          <div class="uk-card-body">
-              <h3 class="uk-card-title">4º Ano</h3>
-              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-          </div>
-      </div>
-  </div>
-  <div>
-    <div class="uk-card uk-card-default">
-        <div class="uk-card-media-top">
-          <img class="activity-image" data-src="img/5ano.jpeg" uk-img>
         </div>
-        <div class="uk-card-body">
-            <h3 class="uk-card-title">5º Ano</h3>
-            <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-        </div>
-    </div>
-</div>
-<div>
-  <div class="uk-card uk-card-default">
-      <div class="uk-card-media-top">
-        <img class="activity-image" data-src="img/6ano.jpeg" uk-img>
-      </div>
-      <div class="uk-card-body">
-          <h3 class="uk-card-title">6º Ano</h3>
-          <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-      </div>
-  </div>
-</div>
-<div>
-  <div class="uk-card uk-card-default">
-      <div class="uk-card-media-top">
-        <img class="activity-image" data-src="img/7ano.jpeg" uk-img>
-      </div>
-      <div class="uk-card-body">
-          <h3 class="uk-card-title">7º Ano</h3>
-          <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-      </div>
-  </div>
-</div>
-<div>
-  <div class="uk-card uk-card-default">
-      <div class="uk-card-media-top">
-        <img class="activity-image" data-src="img/8ano.jpeg" uk-img>
-      </div>
-      <div class="uk-card-body">
-          <h3 class="uk-card-title">8º Ano</h3>
-          <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-      </div>
-  </div>
-</div>
-<div>
-  <div class="uk-card uk-card-default">
-      <div class="uk-card-media-top">
-        <img class="activity-image" data-src="img/9ano.jpeg" uk-img>
-      </div>
-      <div class="uk-card-body">
-          <h3 class="uk-card-title">9º Ano</h3>
-          <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-      </div>
-  </div>
-</div>
-<div>
-  <div class="uk-card uk-card-default">
-      <div class="uk-card-media-top">
-        <img class="activity-image" data-src="img/ga.jpeg" uk-img>
-      </div>
-      <div class="uk-card-body">
-          <h3 class="uk-card-title">GA</h3>
-          <p class="card-description">Programa Geração Ativa.</p>
-          <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-      </div>
-  </div>
-</div>
         <div>
           <div class="uk-card uk-card-default">
-              <div class="uk-card-media-top">
-                <img class="activity-image" data-src="img/eja.jpeg" uk-img>
-              </div>
-              <div class="uk-card-body">
-                  <h3 class="uk-card-title">EJA</h3>
-                  <p class="card-description">Educação de Jovens e Adultos.</p>
-                  <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
-              </div>
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/4ano.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">4º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
           </div>
-      </div>
-      <div>
-        <div class="uk-card uk-card-default">
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/5ano.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">5º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/6ano.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">6º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/7ano.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">7º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/8ano.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">8º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/9ano.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">9º Ano</h3>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/ga.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">GA</h3>
+              <p class="card-description">Programa Geração Ativa.</p>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-media-top">
+              <img class="activity-image" data-src="img/eja.jpeg" uk-img>
+            </div>
+            <div class="uk-card-body">
+              <h3 class="uk-card-title">EJA</h3>
+              <p class="card-description">Educação de Jovens e Adultos.</p>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Atividades</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="uk-card uk-card-default">
             <div class="uk-card-media-top">
               <img class="activity-image" data-src="img/duvidas.jpeg" uk-img>
             </div>
             <div class="uk-card-body">
-                <h3 class="uk-card-title">Tira dúvidas</h3>
-                <p class="card-description">Escreva aqui sua dúvida!</p>  
-                <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing" class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Dúvidas</a>
+              <h3 class="uk-card-title">Tira dúvidas</h3>
+              <p class="card-description">Escreva aqui sua dúvida!</p>
+              <a href="https://drive.google.com/drive/folders/1A1UFtcsaR5XDQw8-lEXslxixDplsjJxi?usp=sharing"
+                class="uk-button uk-button-default uk-width-1-1 uk-margin-small-bottom">Dúvidas</a>
             </div>
-        </div>
-    </div>
-    </div>
-  </div>
-    
-    </main>
-
-    <footer>
-      <br>
-        <div class="uk-navbar-container">
-          <br>
-            <p class="uk-text-center">  
-              <i uk-icon="icon: mail"></i> emvm@pbh.gov.br <br>
-              <i uk-icon="icon: receiver"></i> (31) 3277-5838 - (31) 3277-5839 <br>
-              <i uk-icon="icon: location"></i> Rua Sebastião Moreira, 409, Tirol-BH/MG <br>
-              <i uk-icon="icon: users"></i> Direção: Giovanna Cristina Raphael D. Junqueira / Érica Fernanda Nunes O. Lopes
-            </p>
-            <br>
           </div>
-    </footer>
+        </div>
+      </div>
+    </div>
 
-  </body>
+  </main>
+
+  <footer>
+    <br>
+    <div class="uk-navbar-container">
+      <br>
+      <p class="uk-text-center">
+        <i uk-icon="icon: mail"></i> emvm@pbh.gov.br <br>
+        <i uk-icon="icon: receiver"></i> (31) 3277-5838 - (31) 3277-5839 <br>
+        <i uk-icon="icon: location"></i> Rua Sebastião Moreira, 409, Tirol-BH/MG <br>
+        <i uk-icon="icon: users"></i> Direção: Giovanna Cristina Raphael D. Junqueira / Érica Fernanda Nunes O. Lopes
+      </p>
+      <br>
+    </div>
+  </footer>
+
+</body>
+
 </html>
