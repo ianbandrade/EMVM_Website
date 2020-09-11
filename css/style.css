@@ -1,5 +1,5 @@
 .uk-icon.logo {
-  width: 9vh;
+  width: 8vh;
   margin-top: 15px;
 }
 
@@ -9,10 +9,10 @@
 }
 
 .activity-image {
-  max-width: 290px;
-  max-height: 222px;
-  display: flex;
+  display: block;
   margin: 0 auto;
+
+  max-height: 222px;
 }
 
 .uk-card-title,
@@ -26,8 +26,8 @@
 
 @media (max-width: 960px) {
   .logo {
-    width: 8vh;
-    margin: 0 auto;
-    padding: 5px;
+    width: 7vh;
+    align-content: center;
+    margin-top: 5px;
   }
 }
