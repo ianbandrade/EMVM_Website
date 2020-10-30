@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/uikit.min.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/viewerjs/1.7.1/viewer.min.js" integrity="sha512-nwFyOmSB8H1ol9cl2ioAgzoMgr+2TNimMx6kNajHcpXyNHsnpdkxJQu9RDyVp0CIiuESsMajBKBrnBVv3HA9yQ==" crossorigin="anonymous"></script>
     <title>EMVM</title>
   </head>
 
@@ -266,12 +267,15 @@
       <div class="uk-container">
 
         <h1 class="uk-text-bold uk-text-center uk-text-success">Revista EMVM</h1>
-
-        <iframe class="pdf" src="assets/pdf/Revista.pdf#view=fit&toolbar=0&navpanes=0" frameborder="0"></iframe>
-
+        
+        <iframe id="pdf" src="/web/viewer.html?file=/web/revista_EMVM_compressed.pdf"></iframe>
+    
       </div>
 
-      <hr class="uk-divider-icon" />
+      <div class="uk-container">
+        <hr class="uk-divider-icon" />
+      </div>
+     
 
       <br>
 
