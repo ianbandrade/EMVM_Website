@@ -30,7 +30,8 @@ const counter = () => {
 
   function setTime() {
     --totalSeconds;
-    secondsLabel.innerHTML = pad(totalSeconds % 60);
+    if (totalSeconds >= 0) secondsLabel.innerHTML = pad(totalSeconds % 60);
+    else totalSeconds = 5;
   }
 
   function pad(val) {
