@@ -30,7 +30,7 @@ const counter = () => {
   function setTime() {
     --totalSeconds;
     secondsLabel.innerHTML = `${totalSeconds}s`;
-    if (totalSeconds <= 0) {
+    if (totalSeconds < 0) {
       totalSeconds = 5;
       secondsLabel.innerHTML = '5s';
     }
