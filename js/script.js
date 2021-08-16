@@ -17,8 +17,7 @@ const openRedirectWarningModal = (drivePage) => {
     setTimeout(() => {
       window.location.assign(PAGES[drivePage]);
     }, 5000);
-    UIkit.modal('#modal-center').hide();
-    document.getElementById('seconds').innerHTML = 05;
+    document.getElementById('seconds').innerHTML = 5;
   } catch (e) {
     console.error(e);
   }
