@@ -17,7 +17,7 @@ const openRedirectWarningModal = (drivePage) => {
     setTimeout(() => {
       window.location.assign(PAGES[drivePage]);
     }, 5000);
-    document.getElementById('seconds').innerHTML = 5;
+    secondsLabel.innerHTML = '5s';
   } catch (e) {
     console.error(e);
   }
@@ -30,16 +30,6 @@ const counter = () => {
 
   function setTime() {
     --totalSeconds;
-    if (totalSeconds >= 0) secondsLabel.innerHTML = pad(totalSeconds % 60);
-    else totalSeconds = 5;
-  }
-
-  function pad(val) {
-    let valString = val + '';
-    if (valString.length < 2) {
-      return '0' + valString;
-    } else {
-      return valString;
-    }
+    secondsLabel.innerHTML = `${totalSeconds}s`;
   }
 };
