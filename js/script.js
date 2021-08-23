@@ -12,27 +12,8 @@ const openRedirectWarningModal = (drivePage) => {
   };
 
   try {
-    UIkit.modal('#modal-center').show();
-    counter();
-    setTimeout(() => {
-      window.location.assign(PAGES[drivePage]);
-    }, 5000);
+    window.location.assign(PAGES[drivePage]);
   } catch (e) {
     console.error(e);
-  }
-};
-
-const counter = () => {
-  let secondsLabel = document.getElementById('seconds');
-  let totalSeconds = 5;
-  setInterval(setTime, 1000);
-
-  function setTime() {
-    --totalSeconds;
-    secondsLabel.innerHTML = `${totalSeconds}s`;
-    if (totalSeconds < 0) {
-      totalSeconds = 5;
-      secondsLabel.innerHTML = '5s';
-    }
   }
 };
